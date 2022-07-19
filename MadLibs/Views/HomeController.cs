@@ -20,6 +20,7 @@ namespace MadLibs.Controllers
       return View(myMadLib);
     }
 
+
     [Route("/postcard")]
     public ActionResult Postcard(string adjective1, string noun1, string verb, string adjective2, string noun2)
     {
